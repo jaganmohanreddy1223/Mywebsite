@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #1f2933;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #0f172a;
+}
+
+.logo {
+    color: #38bdf8;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 25px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar ul li a:hover {
+    color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 8%;
+    background: linear-gradient(135deg, #0f172a, #1f2933);
+    color: white;
+}
+
+.hero-text {
+    max-width: 550px;
+}
+
+.hero-text h1 span {
+    color: #38bdf8;
+}
+
+.hero-text h3 {
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+.hero-text p {
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #38bdf8;
+    color: #0f172a;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+}
+
+/* HERO IMAGE */
+.hero-image img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #38bdf8;
+}
+
+/* SECTIONS */
+.section {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 30px;
+}
+
+.light {
+    background: white;
+}
+
+/* SKILLS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+/* PROJECTS */
+.project-card {
+    background: #f4f6f8;
+    margin: 15px auto;
+    padding: 25px;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0f172a;
+    color: white;
+}
